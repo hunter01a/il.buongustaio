@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Allergeni e sicurezza alimentare — Il Buongustaio · Prato</title>
+<meta name="description" content="14 allergeni UE, abbattitore di temperatura per il pesce, gestione contaminazione crociata. Le nostre procedure di sicurezza alimentare al Buongustaio." />
+
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<link rel="apple-touch-icon" href="logo.jpg">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1A1612">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Buongustaio">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Allergeni — Il Buongustaio" />
+<meta property="og:description" content="Le nostre procedure di sicurezza alimentare: 14 allergeni UE, abbattitore per il pesce, gestione contaminazione crociata." />
+<meta property="og:locale" content="it_IT" />
+<meta property="og:image" content="assets/foto/banco-famiglia.jpg" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Italianno&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --cipresso: #2E3D2F;
+  --oliva: #5A6B47;
+  --oro: #A8843C;
+  --oro-chiaro: #C9A663;
+  --pietra: #D9C9A8;
+  --avorio: #EFE6D2;
+  --panna: #F0EAD8;
+  --inchiostro: #1A1612;
+  --grafite: #3D352B;
+  --polvere: #6E6450;
+  --rosso-attenz: #B5462F;
+  --verde-ok: #5a8d4a;
+  --linea-soft: rgba(168, 132, 60, 0.18);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  background: var(--panna);
+  color: var(--inchiostro);
+  font-family: 'Cormorant Garamond', serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== Header ===== */
+.allerg-header {
+  background: var(--inchiostro);
+  padding: 22px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--oro);
+}
+.allerg-header .brand {
+  font-family: 'Italianno', cursive;
+  font-size: 32px;
+  color: var(--panna);
+}
+.allerg-header .brand em { color: var(--oro); font-style: normal; }
+.allerg-header nav { display: flex; gap: 24px; }
+.allerg-header nav a {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--panna);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border 200ms;
+}
+.allerg-header nav a:hover { border-bottom-color: var(--oro); }
+@media (max-width: 640px) {
+  .allerg-header { padding: 16px 20px; flex-direction: column; gap: 12px; }
+  .allerg-header nav { gap: 16px; }
+  .allerg-header nav a { font-size: 10px; }
+}
+
+/* ===== Hero ===== */
+.allerg-hero {
+  padding: 70px 24px 60px;
+  text-align: center;
+  background: linear-gradient(180deg, var(--inchiostro) 0%, #232017 100%);
+  color: var(--panna);
+  border-bottom: 4px solid var(--oro);
+}
+.allerg-hero .occhiello {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--oro);
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.allerg-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.05;
+  margin-bottom: 18px;
+  color: var(--panna);
+}
+@media (min-width: 768px) { .allerg-hero h1 { font-size: 64px; } }
+@media (min-width: 1024px) { .allerg-hero h1 { font-size: 80px; } }
+.allerg-hero h1 em { font-style: italic; color: var(--oro); }
+.allerg-hero .sub {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.5;
+  max-width: 680px;
+  margin: 0 auto;
+  color: rgba(240, 234, 216, 0.78);
+}
+
+/* ===== Sezione contenuti ===== */
+.allerg-wrap { max-width: 1100px; margin: 0 auto; padding: 60px 24px 80px; }
+.allerg-section { margin-bottom: 64px; }
+.allerg-section:last-child { margin-bottom: 0; }
+
+.section-num {
+  font-family: 'Italianno', cursive;
+  font-size: 78px;
+  color: var(--oro);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.section-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--polvere);
+  margin-bottom: 14px;
+}
+.section-titolo {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--inchiostro);
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) { .section-titolo { font-size: 48px; } }
+.section-titolo em { font-style: italic; color: var(--cipresso); }
+
+.section-body p {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--grafite);
+  margin-bottom: 18px;
+  max-width: 800px;
+}
+.section-body p em { color: var(--cipresso); font-style: italic; }
+.section-body p strong {
+  color: var(--inchiostro);
+  font-weight: 500;
+}
+
+/* ===== Grid 14 allergeni UE ===== */
+.allergeni-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 32px;
+}
+@media (min-width: 640px) { .allergeni-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1024px) { .allergeni-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.allergene-card {
+  background: var(--avorio);
+  border: 1px solid var(--linea-soft);
+  border-left: 3px solid var(--oro);
+  padding: 18px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: all 250ms;
+}
+.allergene-card:hover {
+  background: var(--panna);
+  transform: translateX(3px);
+  border-left-color: var(--cipresso);
+}
+.allergene-icon {
+  font-size: 28px;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 38px;
+  text-align: center;
+}
+.allergene-info .num {
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  color: var(--oro);
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.allergene-info .nome {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: var(--inchiostro);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* ===== Box "PROCEDURE" — abbattitore ecc. ===== */
+.procedura-box {
+  background: linear-gradient(135deg, var(--inchiostro) 0%, #2a2520 100%);
+  color: var(--panna);
+  padding: 32px 32px 28px;
+  border-left: 4px solid var(--oro);
+  margin: 32px 0;
+  position: relative;
+}
+.procedura-box .badge {
+  display: inline-block;
+  background: var(--oro);
+  color: var(--inchiostro);
+  padding: 5px 14px;
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.procedura-box h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: var(--panna);
+  margin-bottom: 16px;
+  line-height: 1.15;
+}
+.procedura-box h3 em { color: var(--oro); font-style: italic; }
+.procedura-box p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: rgba(240, 234, 216, 0.85);
+  margin-bottom: 12px;
+}
+.procedura-box p strong { color: var(--oro); font-weight: 500; }
+.procedura-box .specs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(168, 132, 60, 0.3);
+}
+@media (min-width: 768px) { .procedura-box .specs { grid-template-columns: repeat(4, 1fr); } }
+.procedura-box .spec {
+  text-align: center;
+}
+.procedura-box .spec .val {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 28px;
+  color: var(--oro);
+  display: block;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.procedura-box .spec .lbl {
+  font-family: 'Inter', sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(240, 234, 216, 0.55);
+}
+
+/* ===== Tabella prodotti × allergeni ===== */
+.tabella-allerg {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  background: var(--panna);
+  box-shadow: 0 2px 12px rgba(26, 22, 18, 0.06);
+}
+.tabella-allerg thead { background: var(--inchiostro); color: var(--panna); }
+.tabella-allerg th {
+  padding: 12px 8px;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  border-right: 1px solid rgba(255,255,255,0.08);
+}
+.tabella-allerg th:first-child { text-align: left; padding-left: 18px; min-width: 180px; }
+.tabella-allerg td {
+  padding: 10px 8px;
+  text-align: center;
+  border-bottom: 1px solid var(--linea-soft);
+  border-right: 1px solid var(--linea-soft);
+}
+.tabella-allerg td:first-child {
+  text-align: left;
+  padding-left: 18px;
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: var(--inchiostro);
+  font-weight: 500;
+}
+.tabella-allerg tr:nth-child(even) td { background: rgba(168, 132, 60, 0.04); }
+.tabella-allerg tr:hover td { background: var(--avorio); }
+.cell-yes { color: var(--rosso-attenz); font-weight: 700; }
+.cell-trace { color: var(--polvere); font-size: 11px; font-style: italic; }
+.tabella-wrap { overflow-x: auto; margin-top: 24px; }
+
+/* ===== Disclaimer / box rosso attenzione ===== */
+.disclaimer-box {
+  background: linear-gradient(135deg, rgba(181, 70, 47, 0.08) 0%, rgba(181, 70, 47, 0.03) 100%);
+  border: 1px solid rgba(181, 70, 47, 0.3);
+  border-left: 4px solid var(--rosso-attenz);
+  padding: 22px 24px;
+  margin: 32px 0;
+}
+.disclaimer-box .icon {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.disclaimer-box h4 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  color: var(--rosso-attenz);
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.disclaimer-box p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--grafite);
+}
+.disclaimer-box p strong { color: var(--inchiostro); font-weight: 500; }
+
+/* ===== Footer chiusura ===== */
+.allerg-chiusura {
+  background: linear-gradient(180deg, var(--avorio) 0%, var(--panna) 100%);
+  padding: 64px 24px;
+  text-align: center;
+  border-top: 1px solid var(--linea-soft);
+}
+.chiusura-domanda {
+  font-family: 'Italianno', cursive;
+  font-size: 64px;
+  color: var(--oro);
+  line-height: 1;
+  margin-bottom: 14px;
+}
+.chiusura-corpo {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.6;
+  color: var(--grafite);
+  max-width: 600px;
+  margin: 0 auto 28px;
+}
+.chiusura-cta {
+  display: inline-flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cta-btn {
+  padding: 14px 26px;
+  border: 1px solid var(--inchiostro);
+  background: transparent;
+  color: var(--inchiostro);
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 200ms;
+}
+.cta-btn:hover { background: var(--inchiostro); color: var(--panna); }
+.cta-btn.cta-primary {
+  background: var(--inchiostro);
+  color: var(--oro);
+  border-color: var(--inchiostro);
+}
+.cta-btn.cta-primary:hover { background: var(--oro); color: var(--inchiostro); border-color: var(--oro); }
+
+/* ===== Footer ===== */
+.page-footer {
+  background: var(--inchiostro);
+  color: var(--panna);
+  padding: 32px 24px;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 15px;
+}
+.page-footer strong { color: var(--oro); font-style: normal; }
+.page-footer a { color: var(--oro); border-bottom: 1px solid var(--oro); }
+</style>
+</head>
+<body>
+
+<header class="allerg-header">
+  <a href="index.html" class="brand"><em>il</em> buongustaio</a>
+  <nav>
+    <a href="index.html">Bottega</a>
+    <a href="storia.html">Storia</a>
+    <a href="faq.html">Faq</a>
+    <a href="index.html#trovaci">Trovaci</a>
+  </nav>
+</header>
+
+<section class="allerg-hero">
+  <p class="occhiello">Sicurezza alimentare</p>
+  <h1>Allergeni e <em>procedure</em>.</h1>
+  <p class="sub">
+    Tutto quello che facciamo per chi entra in bottega con un'esigenza specifica.
+    Identifichiamo, segnaliamo, formiamo. Trasparenza assoluta, sempre.
+  </p>
+</section>
+
+<div class="allerg-wrap">
+
+  <!-- ============ SEZIONE 1 — i 14 allergeni UE ============ -->
+  <section class="allerg-section">
+    <p class="section-num">i</p>
+    <p class="section-label">Capitolo primo</p>
+    <h2 class="section-titolo">I <em>quattordici allergeni</em>. Regolamento UE 1169/2011.</h2>
+    <div class="section-body">
+      <p>
+        La normativa europea identifica <strong>14 sostanze e prodotti</strong> che possono
+        causare allergie o intolleranze. Per ogni nostro prodotto fresco di gastronomia
+        — lasagne, paste, secondi, contorni — abbiamo schede HACCP che li tracciano tutti.
+        Al banco trovi la scheda allergeni esposta. Sul sito, nel modale di ogni prodotto,
+        trovi i pittogrammi.
+      </p>
+    </div>
+    <div class="allergeni-grid">
+      <div class="allergene-card"><span class="allergene-icon">🌾</span><div class="allergene-info"><p class="num">01</p><p class="nome">Glutine</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🦐</span><div class="allergene-info"><p class="num">02</p><p class="nome">Crostacei</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🥚</span><div class="allergene-info"><p class="num">03</p><p class="nome">Uova</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🐟</span><div class="allergene-info"><p class="num">04</p><p class="nome">Pesce</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🥜</span><div class="allergene-info"><p class="num">05</p><p class="nome">Arachidi</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🫘</span><div class="allergene-info"><p class="num">06</p><p class="nome">Soia</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🥛</span><div class="allergene-info"><p class="num">07</p><p class="nome">Latte e lattosio</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🌰</span><div class="allergene-info"><p class="num">08</p><p class="nome">Frutta a guscio</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🌿</span><div class="allergene-info"><p class="num">09</p><p class="nome">Sedano</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🟡</span><div class="allergene-info"><p class="num">10</p><p class="nome">Senape</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">⚪</span><div class="allergene-info"><p class="num">11</p><p class="nome">Semi di sesamo</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🧪</span><div class="allergene-info"><p class="num">12</p><p class="nome">Anidride solforosa<br/>(solfiti)</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🌱</span><div class="allergene-info"><p class="num">13</p><p class="nome">Lupini</p></div></div>
+      <div class="allergene-card"><span class="allergene-icon">🦪</span><div class="allergene-info"><p class="num">14</p><p class="nome">Molluschi</p></div></div>
+    </div>
+  </section>
+
+  <!-- ============ SEZIONE 2 — ABBATTITORE PESCE (la chicca tecnica!) ============ -->
+  <section class="allerg-section">
+    <p class="section-num">ii</p>
+    <p class="section-label">Capitolo secondo</p>
+    <h2 class="section-titolo">L'<em>abbattitore</em>. Il pesce, come dice la legge.</h2>
+    <div class="section-body">
+      <p>
+        Tutto il pesce destinato al consumo crudo o leggermente marinato — bottarga,
+        sarde marinate, alici al limone, eventuali tartare — passa <strong>obbligatoriamente</strong>
+        dal nostro abbattitore di temperatura prima di arrivare al banco.
+      </p>
+      <p>
+        Il <em>Regolamento CE 853/2004</em> impone di portare il prodotto a una temperatura
+        al cuore di <strong>−20°C per almeno 24 ore</strong> (o equivalente più rapido) per
+        eliminare il rischio Anisakis e altri patogeni. Non è un suggerimento — è legge,
+        ed è la stessa procedura che usano i ristoranti stellati. Anche per la bottarga.
+      </p>
+    </div>
+
+    <div class="procedura-box">
+      <span class="badge">Procedura HACCP</span>
+      <h3>Bonifica preventiva del <em>pesce crudo o semi-crudo</em>.</h3>
+      <p>
+        Il pesce fresco arriva dal nostro fornitore di fiducia, viene <strong>diviso in porzioni
+        e abbattuto immediatamente</strong>. Restano sigillati nel reparto fino al momento
+        della preparazione, con etichetta che riporta data di abbattimento, fine ciclo e
+        operatore responsabile. <em>Tracciabilità completa, dal mare al banco.</em>
+      </p>
+      <div class="specs">
+        <div class="spec">
+          <span class="val">−20°C</span>
+          <span class="lbl">temperatura al cuore</span>
+        </div>
+        <div class="spec">
+          <span class="val">24 h</span>
+          <span class="lbl">tempo minimo</span>
+        </div>
+        <div class="spec">
+          <span class="val">100%</span>
+          <span class="lbl">pesce crudo abbattuto</span>
+        </div>
+        <div class="spec">
+          <span class="val">3°C</span>
+          <span class="lbl">catena del freddo banco</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SEZIONE 3 — Contaminazione crociata ============ -->
+  <section class="allerg-section">
+    <p class="section-num">iii</p>
+    <p class="section-label">Capitolo terzo</p>
+    <h2 class="section-titolo">Contaminazione <em>crociata</em>. Come la evitiamo.</h2>
+    <div class="section-body">
+      <p>
+        Il rischio più subdolo non è l'ingrediente — è l'utensile usato due minuti prima
+        per qualcos'altro. Anche briciole di mortadella su un coltello da formaggi possono
+        scatenare una reazione in chi è allergico ai pistacchi. Ecco perché in bottega:
+      </p>
+    </div>
+
+    <div class="procedura-box">
+      <span class="badge">Le nostre regole</span>
+      <h3>Quattro <em>regole rigide</em>, tutti i giorni.</h3>
+      <p>
+        <strong>1. Affettatrici separate</strong> — una dedicata ai salumi con frutta a guscio
+        (mortadella IGP), una per salumi senza, una sola per i formaggi. Pulizia con detergente
+        sanificante tra un cliente e l'altro su richiesta.
+      </p>
+      <p>
+        <strong>2. Banco celiachia</strong> — riserviamo un settore con superficie dedicata,
+        utensili colorati identificabili, e personale formato. Se ci avvisi prima al telefono
+        ti prepariamo a parte.
+      </p>
+      <p>
+        <strong>3. Stoviglie monouso</strong> per chi ha allergie severe, su richiesta esplicita.
+        Vaschette in alluminio sigillate, mai aperte prima del ritiro.
+      </p>
+      <p>
+        <strong>4. Personale formato</strong> — corso di formazione HACCP e Allergeni ogni anno,
+        certificazione individuale. Rossana, Paola, Gianni, Lorenzo, Alessio — tutti.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ SEZIONE 4 — Tabella prodotti × allergeni ============ -->
+  <section class="allerg-section">
+    <p class="section-num">iv</p>
+    <p class="section-label">Capitolo quarto</p>
+    <h2 class="section-titolo">Tabella <em>esemplificativa</em>. Da consultare al banco.</h2>
+    <div class="section-body">
+      <p>
+        Una sintesi dei nostri principali piatti pronti. La tabella completa, con ingredienti
+        dettagliati e specifiche per cottura, è esposta in bottega ed è aggiornata
+        settimanalmente quando cambiano le ricette o i fornitori.
+      </p>
+    </div>
+
+    <div class="tabella-wrap">
+      <table class="tabella-allerg">
+        <thead>
+          <tr>
+            <th>Prodotto</th>
+            <th>🌾 Glutine</th>
+            <th>🥚 Uova</th>
+            <th>🥛 Latte</th>
+            <th>🐟 Pesce</th>
+            <th>🌰 Frutta guscio</th>
+            <th>🌿 Sedano</th>
+            <th>🧪 Solfiti</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lasagne al forno</td>
+            <td class="cell-yes">●</td>
+            <td class="cell-yes">●</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="cell-trace">tracce</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Pasta al pomodoro</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td class="cell-trace">tracce</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Roast beef</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Patate al forno</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Pane casereccio</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Schiacciata toscana</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Mortadella di Prato IGP</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="cell-yes">● pistacchi</td>
+            <td>—</td>
+            <td class="cell-trace">tracce</td>
+          </tr>
+          <tr>
+            <td>Prosciutto di Parma DOP</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Sol di Capra</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Bottarga di muggine</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Tonno Colimena</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Vongole veraci</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>Baccalà alla livornese</td>
+            <td>—</td>
+            <td>—</td>
+            <td>—</td>
+            <td class="cell-yes">●</td>
+            <td>—</td>
+            <td class="cell-trace">tracce</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="disclaimer-box">
+      <div class="icon">⚠️</div>
+      <h4>Importante</h4>
+      <p>
+        Questa tabella è <strong>esemplificativa</strong> e indicativa. Per allergie gravi
+        o severe, <strong>chiedi sempre al banco prima di acquistare</strong>. Ti aiuteremo
+        a leggere le schede tecniche aggiornate e a scegliere ciò che è più sicuro per te.
+        I nostri prodotti vengono lavorati in ambiente <strong>condiviso</strong>: pur con
+        tutte le precauzioni, la tracciabilità di tracce non può essere garantita al 100%.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ SEZIONE 5 — Cose extra ganze ============ -->
+  <section class="allerg-section">
+    <p class="section-num">v</p>
+    <p class="section-label">Capitolo quinto</p>
+    <h2 class="section-titolo">Cosa <em>facciamo in più</em>.</h2>
+    <div class="section-body">
+      <p>
+        Oltre alle normative, qualche pratica che ci siamo dati noi — perché ci pare giusto così.
+      </p>
+    </div>
+
+    <div class="procedura-box">
+      <span class="badge">Extra · oltre la norma</span>
+      <h3>Le <em>piccole cose</em> che fanno la differenza.</h3>
+      <p>
+        <strong>Etichette doppia lingua</strong> — sui prodotti confezionati le diciture
+        allergeni sono in italiano e inglese (Prato ha turismo internazionale).
+      </p>
+      <p>
+        <strong>"Senza" su richiesta</strong> — su prenotazione di 24h, possiamo preparare
+        lasagne senza lattosio, schiacciata senza lievito, secondi senza nichel, paste con
+        farine alternative. Chiama Paola al mattino.
+      </p>
+      <p>
+        <strong>Pesce per gravidanze e bambini</strong> — sappiamo che certi clienti hanno
+        bisogno di pesce sicuro al 100% (gravidanze, bimbi piccoli). Tutto il nostro pesce
+        crudo è abbattuto, e su richiesta ti garantiamo per iscritto il ciclo termico
+        effettuato — la fattura te lo certifica.
+      </p>
+      <p>
+        <strong>Filiera tracciabile</strong> — ogni prodotto al banco ha un lotto e un
+        fornitore. Se hai una reazione, in 5 minuti sappiamo da quale cassetta è arrivato.
+      </p>
+    </div>
+  </section>
+
+</div>
+
+<section class="allerg-chiusura">
+  <p class="chiusura-domanda">domande?</p>
+  <p class="chiusura-corpo">
+    Se hai allergie, intolleranze o esigenze specifiche, chiamaci o passa in bottega.
+    Ti aiutiamo a scegliere quello che va bene per te. <em>Non è mai un fastidio — è il nostro lavoro.</em>
+  </p>
+  <div class="chiusura-cta">
+    <a href="tel:+390574593398" class="cta-btn cta-primary">📞 Chiama 0574 593398</a>
+    <a href="https://wa.me/393333333333?text=Buongiorno!%20Ho%20un%27allergia%20a..." target="_blank" rel="noopener" class="cta-btn">💬 WhatsApp</a>
+    <a href="index.html" class="cta-btn">← Torna alla bottega</a>
+  </div>
+</section>
+
+<footer class="page-footer">
+  <p>
+    <strong>Il Buongustaio</strong> di Bindi Gianni e C. Snc · Via Catani 38/40 · 59100 Prato · <a href="tel:+390574593398">0574 593398</a>
+  </p>
+</footer>
+
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function(){
+    navigator.serviceWorker.register('service-worker.js').catch(function(){});
+  });
+}
+</script>
+</body>
+
+</html>
